@@ -1,0 +1,93 @@
+[versions]
+accompanistDrawablepainter = "0.35.0-alpha"
+agp = "8.5.1"
+coil = "2.7.0"
+coilCompose = "2.2.2"
+coilComposeVersion = "2.0.0-rc02"
+coilGif = "2.0.0-rc02"
+coilSvg = "2.2.2"
+composeBubble = "Tag"
+composeVideo = "1.2.0"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.6"
+activityCompose = "1.9.2"
+composeBom = "2024.09.03"
+material3 = "1.3.0"
+media3Exoplayer = "1.5.0"
+media3Session = "1.5.0"
+media3Ui = "1.5.0"
+navigationCompose = "2.8.2"
+runner = "1.6.1"
+volley = "1.2.1"
+window = "1.3.0"
+uiTestAndroid = "1.7.3"
+material = "1.12.0"
+appcompat = "1.7.0"
+constraintlayout = "2.1.4"
+navigationFragmentKtx = "2.8.2"
+navigationUiKtx = "2.8.2"
+material3Android = "1.2.1"
+uiDesktop = "1.7.0"
+uiToolingPreviewAndroid = "1.7.5"
+retrofit = "2.11.0"
+converterGson = "2.11.0"
+okhttp = "5.0.0-alpha.14"
+gson = "2.11.0"
+
+[libraries]
+accompanist-drawablepainter = { module = "com.google.accompanist:accompanist-drawablepainter", version = "0.36.0" }
+android-volley = { module = "com.android.volley:volley", version.ref = "volley" }
+androidx-compose-material3-material3 = { module = "androidx.compose.material3:material3" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.15.0" }
+androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3Exoplayer" }
+androidx-media3-session = { module = "androidx.media3:media3-session", version.ref = "media3Session" }
+androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3Ui" }
+androidx-runner = { module = "androidx.test:runner", version.ref = "runner" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+coil-compose = { module = "io.coil-kt:coil-compose", version = "2.7.0" }
+coil-compose-v200rc02 = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
+coil-gif = { module = "io.coil-kt:coil-gif", version = "2.7.0" }
+coil-svg = { module = "io.coil-kt:coil-svg", version = "2.7.0" }
+compose-bubble = { module = "com.github.SmartToolFactory:Compose-Bubble", version.ref = "composeBubble" }
+compose-video = { module = "io.sanghun:compose-video", version.ref = "composeVideo" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+gson = { module = "com.google.code.gson:gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.8.7" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.9.3" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version = "2024.11.00" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version = "2.8.4" }
+androidx-window = { group = "androidx.window", name = "window", version.ref = "window" }
+androidx-ui-test-android = { group = "androidx.compose.ui", name = "ui-test-android", version = "1.7.5" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.2.0" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version = "2.8.4" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version = "2.8.4" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version = "1.3.1" }
+androidx-ui-desktop = { group = "androidx.compose.ui", name = "ui-desktop", version.ref = "uiDesktop" }
+androidx-ui-tooling-preview-android = { group = "androidx.compose.ui", name = "ui-tooling-preview-android", version.ref = "uiToolingPreviewAndroid" }
+volley = { module = "com.android.volley:volley" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converterGson" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
