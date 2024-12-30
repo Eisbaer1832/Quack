@@ -1,2 +1,2 @@
-# Quack
-A simple Android app, that shows you images of random ducks :-)
+# Quack You
+A simple Android MaterialYou app, that shows you images of random ducks :-)
